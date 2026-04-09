@@ -3,11 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- 네이버 사이트 소유권 확인 코드 -->
+  <meta name="naver-site-verification" content="1774b834c54f80eda81ae434c53581fdc9edc74a" />
+  
   <title>보타랩 마이크로 브리슬 칫솔 | 0.009mm 초미세모 비건 칫솔</title>
   <meta name="description" content="잇몸 자극 없는 0.009mm 초미세모, 보타랩 비건 칫솔 4종 세트를 4,800원에 만나보세요." />
+  
   <style>
     :root {
-      --botalab-mint: #7FB5B1; /* 리뷰에서 언급된 민트 톤 */
+      --botalab-mint: #7FB5B1;
       --botalab-dark: #2D5A4C;
       --bg-soft: #F4F7F6;
       --text-main: #222222;
@@ -34,7 +38,17 @@
       box-shadow: 0 0 30px rgba(0,0,0,0.05);
     }
 
-    /* 상단 공지 */
+    /* 공정위 문구 상단 배치 */
+    .ftc-notice {
+      background: #f1f1f1;
+      padding: 8px 15px;
+      text-align: center;
+      font-size: 11px;
+      color: #888;
+      border-bottom: 1px solid #eee;
+    }
+
+    /* 상단 안내 바 */
     .top-notice {
       background: #EBF2F1;
       padding: 10px;
@@ -44,9 +58,8 @@
       font-weight: 600;
     }
 
-    /* 헤더 영역 */
     .header {
-      padding: 50px 24px 30px;
+      padding: 40px 24px 30px;
       text-align: center;
     }
     .badge {
@@ -75,7 +88,6 @@
       color: var(--botalab-dark);
     }
 
-    /* 핵심 특징 (리뷰 데이터 반영) */
     .feature-grid {
       padding: 20px 24px;
       display: grid;
@@ -100,7 +112,6 @@
       color: var(--text-sub);
     }
 
-    /* 추천 대상 */
     .recommend-box {
       margin: 20px 24px;
       padding: 25px;
@@ -132,7 +143,6 @@
       font-weight: bold;
     }
 
-    /* CTA 버튼 */
     .cta-area {
       padding: 30px 24px 60px;
       position: sticky;
@@ -165,8 +175,8 @@
     .footer {
       text-align: center;
       padding: 40px 20px;
-      font-size: 12px;
-      color: #ccc;
+      font-size: 11px;
+      color: #bbb;
       background: #fafafa;
     }
 
@@ -180,7 +190,12 @@
 <body>
 
 <div class="container">
-  <div class="top-notice">본 페이지는 리만코리아 공식 파트너 연결 페이지입니다</div>
+  <!-- 공정위 문구 (최상단 고정) -->
+  <div class="ftc-notice">
+    본 페이지는 리만코리아 파트너 활동의 일환으로, 구매 시 소정의 수수료를 제공받을 수 있습니다.
+  </div>
+
+  <div class="top-notice">리만코리아 공식 파트너 연결 페이지</div>
 
   <header class="header animate">
     <span class="badge">비건 인증 소재</span>
@@ -228,7 +243,8 @@
   </div>
 
   <footer class="footer">
-    &copy; Botalab Partner. 정보 참조: 사용자 리뷰 기반 작성.
+    &copy; Botalab Partner. 본 페이지는 사용자 리뷰를 바탕으로 제작되었습니다.<br>
+    네이버 사이트 소유권 확인 완료.
   </footer>
 </div>
 
